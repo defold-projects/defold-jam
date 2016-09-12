@@ -1,0 +1,22 @@
+[project]
+title = mystery_spirits
+version = 0.1
+
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /render/custom.renderc
+
+[input]
+game_binding = /input/game.input_bindingc
+
+[display]
+width = 600
+height = 800
+
+[physics]
+scale = 0.02
+debug = 0
+
+[script]
+shared_state = 1
+
