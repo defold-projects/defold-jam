@@ -7,3 +7,8 @@ objects
 readme.txt
 render
 build/default
+
+# jekyll stuff
+_site
+.sass-cache
+.jekyll-metadata
