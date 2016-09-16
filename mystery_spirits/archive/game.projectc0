@@ -1,6 +1,6 @@
 [project]
 title = mystery_spirits
-version = 0.1
+version = 0.2
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -12,6 +12,8 @@ game_binding = /input/game.input_bindingc
 [display]
 width = 600
 height = 800
+high_dpi = 0
+samples = 0
 
 [physics]
 scale = 0.02
@@ -19,4 +21,18 @@ debug = 0
 
 [script]
 shared_state = 1
+
+[sprite]
+max_count = 256
+subpixels = 0
+
+[windows]
+app_icon = /assets/icons/icon200x200.jpgc
+
+[osx]
+app_icon = /assets/icons/icon200x200.jpgc
+
+[graphics]
+default_texture_min_filter = linear
+default_texture_mag_filter = linear
 
