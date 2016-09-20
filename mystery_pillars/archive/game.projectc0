@@ -3,7 +3,7 @@ title = mystery_pillars
 version = 0.2
 
 [bootstrap]
-main_collection = /main/main.collectionc
+main_collection = /levels/start/start.collectionc
 render = /render/custom.renderc
 
 [input]
@@ -27,12 +27,19 @@ max_count = 256
 subpixels = 0
 
 [windows]
-app_icon = /assets/icons/icon200x200.jpgc
+app_icon = /assets/icons/windows/icon200x200.ico
 
 [osx]
-app_icon = /assets/icons/icon200x200.jpgc
+app_icon = /assets/icons/osx/icon200x200.icns
 
 [graphics]
 default_texture_min_filter = linear
 default_texture_mag_filter = linear
+
+[android]
+app_icon_72x72 = /assets/icons/android/mipmap-hdpi/ic_launcher.png
+app_icon_48x48 = /assets/icons/android/mipmap-mdpi/ic_launcher.png
+app_icon_96x96 = /assets/icons/android/mipmap-xhdpi/ic_launcher.png
+app_icon_144x144 = /assets/icons/android/mipmap-xxhdpi/ic_launcher.png
+app_icon_192x192 = /assets/icons/android/mipmap-xxxhdpi/ic_launcher.png
 
